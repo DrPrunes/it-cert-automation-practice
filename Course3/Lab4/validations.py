@@ -23,7 +23,7 @@ def validate_user(username, minlen):
 
     return True
 
-
+# no comment
 
 print(validate_user("blue.kale", 3)) # True
 print(validate_user(".blue.kale", 3)) # Currently True, should be False
